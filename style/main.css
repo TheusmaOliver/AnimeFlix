@@ -54,7 +54,7 @@ header .image img {
 
 .anime-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.60)100%), url('/img/naruto-capa.jpg');
+    background: linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.60)100%), url('../img/naruto-capa.jpg');
     height: 400px;
     background-size: cover;
     
