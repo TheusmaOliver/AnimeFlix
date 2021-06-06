@@ -1,0 +1,133 @@
+:root{
+    --primaryColor: #E50914;
+    --secondaryColor: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Elementos base*/
+
+body{
+    background: var(--secondaryColor);
+    font-family: 'Arial', Times, sans-serif;
+    color: white
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container .logo {
+    padding: 5px;
+    color: var(--primaryColor);
+    font-family: "Arial Black", Times;
+    font-size: 40px;
+}
+
+header nav{
+    padding: 5px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+header .image img {
+    height: 50px;
+    border-radius: 5px;
+
+}
+
+/*Anime Principal*/
+
+.anime-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.60)100%), url('/img/naruto-capa.jpg');
+    height: 400px;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.anime-principal .descricao {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.anime-principal .titulo{
+    margin-top: 15%;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.anime-principal .botoes .botao {
+    background-color:rgba(109,109,110,0.7) ;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px 15px;
+    font-weight: bold;
+    margin-right:15px ;
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.anime-principal .botoes .botao-play{
+   background-color: white;
+   color: black;
+   border: none;
+   outline: none;
+   padding: 10px 15px;
+   font-weight: bold;
+   margin-right:15px ;
+   font-size: 12px;
+   border-radius: 4px;
+   cursor: pointer;
+   transition: .3s ease all; 
+}   
+
+.anime-principal .botoes .botao:hover{
+    background-color: rgba(109,109,110,0.4);
+    
+}
+
+.anime-principal .botoes .botao-play:hover{
+    background-color: rgba(255,255,255,0.75);
+}
+
+.botoes i {
+    margin-right: 8px;
+}
+
+.container {
+    padding: 5px 20px;
+}
+
+.anime-principal .container{
+    width: 70%;
+}
+
+.box-anime {
+    margin-top: 10px;
+    height: 100%;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+}

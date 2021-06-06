@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="shortcut icon" href="img/Logo-AnimeFLix-removebg-preview.png">
+
+    <!--Responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <script src="https://kit.fontawesome.com/526419a6c5.js" crossorigin="anonymous"></script>
+    <title>AnimeFlix</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">ANIMEFLIX</h2>
+
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Animes</a>
+                <a href="#">Gêneros</a>
+            </nav>
+
+            <div class="image">
+                <img src="img/logoPerfil.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="anime-principal">
+            <div class="container">
+                <h3 class="titulo">Naruto</h3>
+
+                <p class="descricao">Guiado pelo espírito demoníaco dentro dele, o órfão Naruto aprende a controlar seus
+                    poderes como um ninja nesta série de aventura anime...</p>
+
+
+                <div class="botoes">
+
+                    <button onclick="play()" role="button" class="botao-play">
+
+                        <i class="fas fa-play"></i>
+
+                        Assistir
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        Mais informações
+                    </button>
+                </div>
+            </div>
+
+
+
+        </div>
+    </main>
+
+
+    <div class="carrosel-animes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-anime" src="img/AttackOnTitan-capa.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-anime" src="img/Onepiece-capa.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-anime" src="img/TokyoGhoul-capa.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-anime" src="img/bokuNoHero-capa.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-anime" src="img/dragonBall-capa.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-anime" src="img/cavaleirosZodiaco-capa.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-anime" src="img/yu-gi-oh-capa.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/setup.js"></script>
+</body>
+
+</html>
